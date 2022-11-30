@@ -1,5 +1,10 @@
 {
-  "name": "popular-tv-shows",
-  "integrations": {},
-  "type": "angular"
+  "projects": {
+    "popular-tv-shows": {
+      "name": "popular-tv-shows",
+      "integrations": {},
+      "type": "angular"
+    }
+  },
+  "defaultProject": "popular-tv-shows"
 }
