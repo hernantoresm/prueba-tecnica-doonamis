@@ -1,0 +1,11 @@
+<div class="card" (click)="navigateToShow()">
+  <div class="picture">
+    <ion-img
+      [src]="
+        (posterPath | picture) || '../../../assets/imgs/movie-placeholder.png'
+      "
+      alt="poster"
+    ></ion-img>
+  </div>
+  <div class="card-title">{{ name }}</div>
+</div>

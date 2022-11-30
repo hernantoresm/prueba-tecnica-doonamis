@@ -1,0 +1,20 @@
+.detail-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.serie-content {
+  width: 80%;
+}
+app-sidebar {
+  width: 20%;
+}
+
+@media (max-width: 768px) {
+  app-sidebar {
+    display: none;
+  }
+  .serie-content {
+    width: 100%;
+  }
+}

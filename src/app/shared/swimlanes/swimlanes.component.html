@@ -1,0 +1,16 @@
+<div class="swimlane-container">
+  <div class="category-label">{{ categoryName }}</div>
+  <swiper
+    [breakpoints]="swiperBreakpoints"
+    [slidesOffsetBefore]="15"
+    [preloadImages]="false"
+  >
+    <ng-template swiperSlide *ngFor="let serie of series"
+      ><app-card
+        [name]="serie.name"
+        [posterPath]="serie.poster_path"
+        [id]="serie.id"
+      ></app-card
+    ></ng-template>
+  </swiper>
+</div>

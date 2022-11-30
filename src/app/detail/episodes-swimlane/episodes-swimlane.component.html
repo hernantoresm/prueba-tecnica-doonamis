@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="category-label">{{ seasons?.name }}</div>
+  <swiper
+    [slidesPerView]="4.5"
+    [breakpoints]="swiperBreakpoints"
+    [slidesOffsetBefore]="15"
+    [preloadImages]="false"
+  >
+    <ng-template *ngFor="let season of seasons?.episodes" swiperSlide
+      ><app-episode-card
+        [name]="season.name"
+        [picture]="season.still_path | picture"
+      ></app-episode-card
+    ></ng-template>
+  </swiper>
+</div>

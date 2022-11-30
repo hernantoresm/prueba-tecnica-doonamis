@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+ion-img::part(image) {
+  border-radius: 2.5%;
+}

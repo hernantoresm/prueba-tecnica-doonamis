@@ -1,0 +1,14 @@
+<div class="reviews-container">
+  <ion-img
+    [src]="
+      (seasonPoster | picture) || '../../../assets/imgs/movie-placeholder.png'
+    "
+  ></ion-img>
+  <div class="rating-container">
+    <ion-icon name="star"></ion-icon> {{ voteAverage | number: "1.0-1" }}
+  </div>
+  <div class="reviews">
+    {{ date }}
+  </div>
+  <div class="review">{{ seasonInfo }}</div>
+</div>

@@ -1,0 +1,34 @@
+.card-title {
+  text-align: left;
+}
+
+.card {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+ion-icon {
+  color: white;
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  z-index: 10;
+}
+
+ion-img:hover {
+  z-index: 5;
+}
+
+ion-icon:hover {
+  z-index: 30;
+}
+
+ion-img {
+  z-index: 20;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

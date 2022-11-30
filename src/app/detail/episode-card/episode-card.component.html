@@ -1,0 +1,12 @@
+<div class="card">
+  <div class="picture">
+    <ion-icon name="play"></ion-icon>
+    <ion-img
+      [src]="
+        (picture | picture) || '../../../assets/imgs/movie-placeholder.png'
+      "
+      alt="poster"
+    ></ion-img>
+  </div>
+  <div class="card-title">{{ name }}</div>
+</div>

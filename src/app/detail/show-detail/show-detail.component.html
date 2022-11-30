@@ -1,0 +1,11 @@
+<div class="detail-container">
+  <div class="picture-container">
+    <ion-img
+      [src]="
+        (picture | picture) || '../../../assets/imgs/movie-placeholder.png'
+      "
+    ></ion-img>
+  </div>
+  <div class="title">{{ title }}</div>
+  <div class="description">{{ detail }}</div>
+</div>
